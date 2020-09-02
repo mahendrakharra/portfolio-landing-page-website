@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Mahendra Choudhary!">
-    <link rel="stylesheet" href="css/master.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
-    <title>Portfolio Layout</title>
-</head>
-<body>
-      <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mahendra Choudhary!">
+        <link rel="stylesheet" href="css/master.css" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+        <title>Portfolio Layout</title>
+   </head>
+   <body>
+  <div class="chat-icon">
+      <i class="fa fa-whatsapp fa-3x"></i>
+  </div>
+  <div class="chat-box">
+
+  </div>
+
+      <header id="section-1">
           <nav>
             <p class="logo">MY DATA</p>
               <div class="bar">
@@ -17,92 +24,119 @@
                   <div class="bar2"></div>
                   <div class="bar3"></div>
               </div>
-              <ul>
-              <a href="Javascript:"> <li> Home </li> </a>
-              <a href="Javascript:"> <li> About </li> </a>
-              <a href="Javascript:"> <li> Services </li> </a>
-              <a href="Javascript:"> <li> Portfolio </li> </a>
-              <a href="Javascript:"> <li> Dropdown </li> </a>
-              <a href="Javascript:"> <li> Skills </li> </a>
-              <a href="Javascript:"> <li> Contact </li> </a>
+
+              <ul class="dropdown">
+                  <a href="#section-1"> <li> Home </li> </a>
+                  <a href="#section-2"> <li> About </li> </a>
+                  <a href="#section-3"> <li> Services </li> </a>
+                  <a href="#section-4"> <li> Portfolio </li> </a>
+                  <a class="my-drop" href="#section-5" id="new-drop">
+                  <li> Dropdown <i class="fa fa-arrow-down"></i> </li> </a>
+                  <a class="hide" href=""><li>Education </li></a>
+                  <a class="hide-two" href=""><li>Experience</li></a>
+                  <a href="#section-6"> <li> Skills </li> </a>
+                  <a href="#section-7"> <li> Contact </li> </a>
               </ul>
+
+              <div class="drop">
+                  <a href="">Education </a> <br />
+                  <a href="">Experience</a>
+              </div>
             </nav>
+
+
             <div class="details">
                 <div class="image">
-                    <img class="main-image" src="images/banner.jpg" alt="My image">
+                    <img class="main-image" src="images/mahiwebs.png" alt="My image">
                 </div>
                 <div class="detail">
                     <p class="text">Hii, My name is<br>
                     <span class="name">Mahi Choudhary</span><br>
                     <span  class="text">A men with 2 years code experience!</span></p>
-                    <p class="intro copy-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    <p class="intro copy-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                        Enim molestias labore, dolores, architecto officia
                        assumenda dicta fugit quasi obcaecati illumiente quasi obcaecati illumiente.</p>
                 </div>
             </div>
       </header>
-      <main>
+
+
+
+
+
+
+
+      <main id="section-2">
            <h1>About Me</h1>
           <section class="first-section">
-                <div class="boxs box1">
+                    <div class="boxs box1">
                     <i id="top-icons" class="fa fa-television fa-3x"></i>
                     <hr>
                     <h3>Web Design</h3>
-                </div>
-                <div class="boxs box2">
+                    </div>
+                   <div class="boxs box2">
                     <i id="top-icons" class="fa fa-database fa-3x"></i>
                     <hr>
                     <h3>Web Developer</h3>
                 </div>
-           
-                <div class="boxs box3">
+
+                    <div class="boxs box3">
                     <i id="top-icons" class="fa fa-wordpress fa-3x"></i>
                     <hr>
                     <h3>Wordpress</h3>
-                </div>
-                <div class="boxs box4">
+                   </div>
+                    <div class="boxs box4">
                     <i id="top-icons" class="fa fa-male fa-3x"></i>
                     <hr>
                     <h3>Team Leader</h3>
                 </div>
                 <div class="fix"></div>
           </section>
+
+
+
           <section class="second-section">
-                 <div class="para copy-content"><b>Lorem ipsum dolor sit amet consectetur 
-                     adipisicing elit. Nam dolore quo quaerat aperiam 
-                     accusamus necessitatibus nemo molestias aliquid 
-                     laborum inventore deleniti, libero amet recusandae.</b></div>
-                 <div class="para copy-content">Lorem ipsum dolor sit amet consectetur 
-                     adipisicing elit. Nam dolore quo quaerat aperiam 
+                 <div class="para copy-content"><b>Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Nam dolore quo quaerat aperiam
                      accusamus necessitatibus nemo molestias aliquid
-                      laborum inventore deleniti, libero amet recusaa 
+                     laborum inventore deleniti, libero amet recusandae.</b></div>
+                 <div class="para copy-content">Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Nam dolore quo quaerat aperiam
+                     accusamus necessitatibus nemo molestias aliquid
+                      laborum inventore deleniti, libero amet recusaa
                      necessitatibus veniam eum reiciendis? Dolore.</div>
-                 <div class="para copy-content">Lorem ipsum dolor sit amet consectetur 
+                 <div class="para copy-content">Lorem ipsum dolor sit amet consectetur
                      adipisicing elit. Nam dolore quo quaerat aperiam
                       accusamus necessitatibus nemo molestias aliquid
-                       laborum inventore deleniti, libero amet recusandae? Ipsa 
+                       laborum inventore deleniti, libero amet recusandae? Ipsa
                      necessitatibus veniam eum reiciendis? Dolore.</div>
                      <div class="fix"></div>
          </section>
-                  <div class="button">More</div>
-          
+                  <div class="button"> <a href="#section-3"> More </a></div>
+
+
+
+
+
+
+
          <div class="back-image">
-         <div class="services">
+         <div class="services" id="section-3">
                 <h1>My Services</h1>
                 <div class="row">
                 <div class="service1 effect">
                     <i id="second-icons" class="fa fa-pencil fa-2x"></i>
-                    <h3>Web Design</h3>
+                    <h3 class="title">Web Design</h3>
                     <hr class="second-hrs">
-                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur 
+                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Nam dolore quo quaerat aperiam
                          accusamus necessitatibus nemo molestias aliquid</p>
                 </div>
                 <div class="service2 effect">
                     <i id="second-icons" class="fa fa-code fa-2x"></i>
-                    <h3>Web Development</h3>
+                    <h3  class="title">Web Development</h3>
                     <hr class="second-hrs">
-                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur 
+                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Nam dolore quo quaerat aperiam
                          accusamus necessitatibus nemo molestias aliquid</p>
                 </div>
@@ -112,31 +146,39 @@
                 <div class="row">
                 <div class="service3 effect">
                     <i id="second-icons" class="fa fa-photo fa-2x"></i>
-                    <h3>Responsive </h3>
+                    <h3  class="title">Responsive </h3>
                     <hr class="second-hrs">
-                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur 
+                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Nam dolore quo quaerat aperiam
                          accusamus necessitatibus nemo molestias aliquid</p>
                 </div>
                 <div class="service4 effect">
                     <i id="second-icons" class="fa fa-thumbs-up fa-2x"></i>
-                    <h3>Creative Design</h3>
+                    <h3  class="title">Creative Design</h3>
                     <hr class="second-hrs">
-                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur 
+                    <p class="copy-content">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Nam dolore quo quaerat aperiam
                          accusamus necessitatibus nemo molestias aliquid</p>
                 </div>
                 <div class="fix"></div>
         </div> </div> </div>
-        
-        <div class="my-portfolio">
+
+
+
+
+
+
+
+
+
+        <div class="my-portfolio" id="section-4">
                  <h1>Portfolio</h1>
                  <ul class="design-menu">
                      <li class="btn-one">All Designs</li>
                      <li class="btn-two">Templates</li>
                      <li class="btn-three">Creative</li>
                  </ul>
-        
+
                  <div class="design">
                     <div class="portfolio template">
                         <img src="images/g1.jpg" alt="portfolio pictures">
@@ -165,7 +207,7 @@
                     <div class="portfolio template">
                         <img src="images/g7.jpg" alt="portfolio pictures">
                         <div class="over"><i id="img-icon" class="fa fa-photo fa-3x"></i></div>
-                    </div> 
+                    </div>
                     <div class="portfolio creative">
                         <img src="images/g8.jpg" alt="portfolio pictures">
                         <div class="over"><i id="img-icon" class="fa fa-thumbs-up fa-3x"></i></div>
@@ -173,8 +215,13 @@
                     <div class="fix"></div>
                  </div>
                 </div>
-            <div class="second-back-img">
-                <div class="achivements">
+
+
+
+
+       <div class="celebrate">
+          <div class="second-back-img">
+                <div class="achivements" >
                      <div class="achive">
                         <i class="fa fa-check-square-o fa-3x"></i>
                         <h2>Projects</h2>
@@ -192,185 +239,229 @@
                      </div>
                      <div class="fix"></div>
                 </div>
+                </div>
                 <div class="side-img">
                     <img src="images/side.jpg" width="100%" height="100%" alt="">
                 </div>
-                
-            </div>
-            <div class="fix"></div>
-        <div class="my-edu">
+                 <div class="fix"> </div>
+
+          </div>
+
+
+
+
+
+
+
+
+        <div class="my-edu" id="section-5">
             <div class="education">
-                <h3>Eduaction and Work Experience</h3>
-                <h2>Education</h2> 
-                <div class="accordion"><font color="gray">2012 - 2014</font> High School in computer science.
+                <h2 class="about-edu-exp">Eduaction and Work Experience</h2>
+                <h2>Education</h2>
+                <div class="accordion"><font color="yellowgreen">2012 - 2014</font> High School in computer science.
                                        <i id="arrow" class="fa fa-arrow-circle-down"></i></div>
                 <div class="panel">
-                    <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div class="accordion"><font color="gray">2014 - 2017</font> Graduate in computer science.
+                <div class="accordion"><font color="yellowgreen">2014 - 2017</font> Graduate in computer science.
                                        <i id="arrow" class="fa fa-arrow-circle-down"></i></div>
                 <div class="panel">
-                    <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div class="accordion"><font color="gray">2017 - 2018</font> Diploma in web development.
+                <div class="accordion"><font color="yellowgreen">2017 - 2018</font> Diploma in web development.
                                        <i id="arrow" class="fa fa-arrow-circle-down"></i></div>
                 <div class="panel">
-                    <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
+
+
+
+
+
+
+
+
             <div class="experience">
                          <h2>Work Experience</h2>
-                   
+
                         <div class="second-row">
                            <div class="head-box"><h2>2015-2017 <br><br> Company Name</h2></div>
                            <div class="detail-box"><h3 class="work">Junior Web Designer</h3>
-                            <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="fix"></div>
                         </div>
-                   
-                   
+
+
                         <div class="second-row">
                         <div class="head-box"><h2>2017-2019 <br><br> Company Name</h2></div>
                         <div class="detail-box"><h3 class="work">Web Designer and Developer</h3>
-                            <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="fix"></div>
-                       </div> 
-                   
-                   
+                       </div>
+
+
                     <div class="second-row">
                         <div class="head-box"><h2>2019-Now <br><br> Company Name</h2></div>
                         <div class="detail-box"><h3 class="work">Full Stack Web Developer</h3>
-                            <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            <p class="copy-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </div>
                         <div class="fix"></div>
-                    </div>      
-            </div>
-        </div>
+                    </div>
+              </div>
+              </div>
 
-            <div class="my-skills">
+
+
+
+
+
+
+
+
+
+
+
+            <div class="my-skills" id="section-6">
 
                     <h1> MY SKILLS </h1>
-   
+
                      <div class="inner-row1">
-                         <div class="skill1">
-                           <div class="skillbar"> 
+                           <div class="skill1">
+                           <div class="skillbar">
                                <div class="skill-level html"></div>
                             </div>
-                            <h2>HTML 5</h2>
-                        </div>
+                            <h2 class="title">HTML 5</h2>
+                           </div>
 
-                      <div class="skill2">
-                        <div class="skillbar"> 
-                            <div class="skill-level css"></div>
-                        </div>
-                        <h2>CSS 3</h2>
-                      </div>
-                      </div>
+                            <div class="skill2">
+                            <div class="skillbar">
+                              <div class="skill-level css"></div>
+                            </div>
+                            <h2 class="title">CSS 3</h2>
+                            </div>
+                            </div>
+
+
+
                       <div class="inner-row1">
-                      <div class="skill3">
-                        <div class="skillbar"> 
-                            <div class="skill-level js"></div> 
-                        </div>
-                        <h2>Javascript</h2>
-                      </div>
+                             <div class="skill3">
+                             <div class="skillbar">
+                                <div class="skill-level js"></div>
+                              </div>
+                              <h2 class="title">Javascript</h2>
+                             </div>
 
-                      <div class="skill4">
-                        <div class="skillbar"> 
-                            <div class="skill-level php"></div> 
-                        </div>
-                        <h2>PHP 7</h2>
-                      </div>
-                    </div>
-                        
+                             <div class="skill4">
+                             <div class="skillbar">
+                               <div class="skill-level php"></div>
+                             </div>
+                             <h2 class="title">PHP 7</h2>
+                             </div>
+                     </div>
                      <div class="fix"></div>
-
-
-
             </div>
-            <div class="contact-us">
+
+
+
+
+
+
+
+
+            <div class="contact-us"  id="section-7">
                    <h2>Contact Me</h2>
                    <div class="third-row">
+             <form class="my-form" action="index.html" method="post">
                         <div class="inner-row1">
-                           <div class="coloum">
-                               <input type="text" name="name" placeholder="Firstname">
-                           </div>
-                   
-                           <div class="coloum">
-                            <input type="text" name="name" placeholder="Lastname">
-                           </div>
-                           <div class="fix"></div>
-                        </div>
-                   
-                        <div class="inner-row1"> 
-                           <div class="coloum">
-                            <input type="email" name="email" placeholder="Email Address">
-                           </div>
+                        <div class="coloum">
 
-                           <div class="coloum">
-                            <input type="number" name="number" placeholder="Number">
-                           </div>
-                           <div class="fix"></div>
-                        </div> 
+                        <input type="text" name="firstname" placeholder="Firstname">
+                        </div>
+
+                        <div class="coloum">
+                        <input type="text" name="lastname" placeholder="Lastname">
+                        </div>
                         <div class="fix"></div>
-                   </div>
+                        </div>
+
+                        <div class="inner-row1">
+                        <div class="coloum">
+                        <input type="email" name="email" placeholder="Email Address">
+                        </div>
+
+                        <div class="coloum">
+                        <input type="number" name="number" placeholder="Number">
+                        </div>
+                        <div class="fix"></div>
+                        </div>
+                        <div class="fix"></div>
+                        </div>
 
                    <div class="fourth-row">
-                         <textarea name="message" placeholder="message..."></textarea>
+                   <textarea name="message" placeholder="message..."></textarea>
                    </div>
                    <div class="submit-btn">
-                         <input type="submit" value="SUBMIT" name="submit">
+                   <input type="submit" value="SUBMIT" name="submit">
                    </div>
+                 </form>
             </div>
+
+
 
 
             <div class="google-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.
                 1510558876143!2d74.66212391450587!3d26.993770983092855!2m3!1f0!2f0!3f0!3m2
                 !1i1024!2i768!4f13.1!3m3!1m2!1s0x396b9fdc8ac92c8b%3A0x7c78f30e5c9ae7be!2s
-                Mahiwebs!5e0!3m2!1sen!2sin!4v1597606633394!5m2!1sen!2sin" width="100%" 
-                height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                Mahiwebs!5e0!3m2!1sen!2sin!4v1597606633394!5m2!1sen!2sin" width="100%"
+                height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                aria-hidden="false" tabindex="0"></iframe>
             </div>
 
 
+
+
+
             <div class="my-info">
-                 <div class="info">
-                    <p class="add"> <i class="fa fa-map-marker"></i> <span><b>Address</b></span> </p>
-                     <hr class="info-hr">
-                     <p>32, lojan street, deshbhunk <br> 94899 jnarnad - earth</p>
-                 </div>
+                   <div class="info">
+                      <p class="add"> <i class="fa fa-map-marker"></i> <span><b>Address</b></span> </p>
+                       <hr class="info-hr">
+                       <p>32, lojan street, deshbhunk <br> 94899 jnarnad - earth</p>
+                   </div>
 
-                 <div class="info">
-                    <p class="add"><i class="fa fa-envelope"></i> <span><b>Mail Me</b></span></p>
-                    <hr class="info-hr">
-                    <p>info@example.com <br> ask@example.com</p>
-                 </div>
+                   <div class="info">
+                      <p class="add"><i class="fa fa-envelope"></i> <span><b>Mail Me</b></span></p>
+                      <hr class="info-hr">
+                      <p>info@example.com <br> ask@example.com</p>
+                   </div>
 
-                 <div class="info">
-                    <p class="add"><i class="fa fa-phone"></i> <span><b>Phone</b></span></p>
-                    <hr class="info-hr"> 
-                    <p>+91-9876543210 <br> +91-9876543210 </p>
-                 </div>
-                <div class="fix"></div>
+                   <div class="info">
+                      <p class="add"><i class="fa fa-phone"></i> <span><b>Phone</b></span></p>
+                      <hr class="info-hr">
+                      <p>+91-9876543210 <br> +91-9876543210 </p>
+                   </div>
+                  <div class="fix"></div>
             </div>
       </main>
 
@@ -385,9 +476,10 @@
               <i id="f-icon" class="fa fa-linkedin"></i>
               <i id="f-icon" class="fa fa-behance"></i>
           </div>
-          <p class="copy">&copy; 2020 MY DATA! ALL RIGHTS RESERVED! DESIGN BY: 
+          <p class="copy">&copy; 2020 MY DATA! ALL RIGHTS RESERVED! DESIGN BY:
                          <a href="javascript:"> <u>Mahendra Choudhary</u></a></span></p>
       </footer>
+
 
       <script src="js/sandbox.js"></script>
 </body>
